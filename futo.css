@@ -1,0 +1,57 @@
+body{
+    background-image: url('auth.c722ef89.webp');
+    background-size: cover;
+}
+header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+.futol img{
+    width: 150px;
+    padding-right: 10px;
+    border-right: 1px solid blue;
+}
+.futo-li{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+   color: rgb(66, 66, 209);
+   padding-left: 10px;
+   align-items: center;
+}
+.futo-but button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(13, 196, 13);
+    border-radius: 5px;
+    border-color:rgb(17, 189, 17);
+}
+.login{
+    border: 1px solid black;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:#091e42;
+}
+.login .up{
+    width: 400px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.login .up img{
+    margin-left: 40px;
+}
+.login .up h1{
+    font-size: 30px;
+}
+.login .up p{
+    font-weight: 700;
+}

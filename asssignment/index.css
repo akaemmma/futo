@@ -1,0 +1,68 @@
+header{
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+.menu{
+    border: 2px solid aqua;
+    height: 600px;
+    width: 500px;
+    /* gap: 30px; */
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-left: 350px;
+}
+.menu-bar div{
+    padding: 20px;
+}
+.menu-bar label{
+    padding-right: 40px;
+}
+.menu-bar input{
+    height: 30px;
+    border-radius: 10px;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.radio label{
+    padding-top: 18px;
+}
+.radio div{
+    display: flex;
+    gap: 10px;
+}
+.Description{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.Description p{
+    padding-right: 30px;
+}
+.Description textarea{
+    border-radius: 5px;
+}
+
+.button button{
+    margin: 30px;
+    padding: 10px;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.button .sub{
+ background-color:rgb(26, 201, 26) ;
+ 
+}
+.button .cle{
+    background-color: blue;
+}
